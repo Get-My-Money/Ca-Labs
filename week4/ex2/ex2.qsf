@@ -1,0 +1,115 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2018  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+# Date created = 19:08:02  September 24, 2020
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		ex2_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "MAX 10"
+set_global_assignment -name DEVICE 10M08DAF484I7G
+set_global_assignment -name TOP_LEVEL_ENTITY ex2
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "19:08:02  SEPTEMBER 24, 2020"
+set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP "-40"
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 100
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 484
+set_global_assignment -name DEVICE_FILTER_SPEED_GRADE 7
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_global_assignment -name VERILOG_FILE ex2.v
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_A2 -to LED[0]
+set_location_assignment PIN_A3 -to LED[1]
+set_location_assignment PIN_A4 -to LED[2]
+set_location_assignment PIN_A5 -to LED[3]
+set_location_assignment PIN_A6 -to LED[4]
+set_location_assignment PIN_A7 -to LED[5]
+set_location_assignment PIN_A8 -to LED[6]
+set_location_assignment PIN_A9 -to LED[7]
+set_location_assignment PIN_A14 -to LED[8]
+set_location_assignment PIN_A15 -to LED[9]
+set_location_assignment PIN_C2 -to KEY[0]
+set_location_assignment PIN_C3 -to KEY[1]
+set_location_assignment PIN_C4 -to HEX[0]
+set_location_assignment PIN_C5 -to HEX[1]
+set_location_assignment PIN_C6 -to HEX[2]
+set_location_assignment PIN_C7 -to HEX[3]
+set_location_assignment PIN_C8 -to HEX[4]
+set_location_assignment PIN_D1 -to HEX[5]
+set_location_assignment PIN_C13 -to HEX[7]
+set_location_assignment PIN_C14 -to HEX[8]
+set_location_assignment PIN_C17 -to HEX[23]
+set_location_assignment PIN_C20 -to HEX[25]
+set_location_assignment PIN_B1 -to HEX[9]
+set_location_assignment PIN_E21 -to HEX[47]
+set_location_assignment PIN_E19 -to HEX[46]
+set_location_assignment PIN_E18 -to HEX[45]
+set_location_assignment PIN_E16 -to HEX[43]
+set_location_assignment PIN_E15 -to HEX[42]
+set_location_assignment PIN_E13 -to HEX[40]
+set_location_assignment PIN_E12 -to HEX[39]
+set_location_assignment PIN_E11 -to HEX[38]
+set_location_assignment PIN_E10 -to HEX[37]
+set_location_assignment PIN_E9 -to HEX[36]
+set_location_assignment PIN_E8 -to HEX[35]
+set_location_assignment PIN_E6 -to HEX[32]
+set_location_assignment PIN_E4 -to HEX[20]
+set_location_assignment PIN_E3 -to HEX[17]
+set_location_assignment PIN_E22 -to HEX[15]
+set_location_assignment PIN_E1 -to HEX[12]
+set_location_assignment PIN_B2 -to HEX[10]
+set_location_assignment PIN_B3 -to HEX[13]
+set_location_assignment PIN_B4 -to HEX[14]
+set_location_assignment PIN_B5 -to HEX[16]
+set_location_assignment PIN_B7 -to HEX[19]
+set_location_assignment PIN_B8 -to HEX[21]
+set_location_assignment PIN_B10 -to HEX[24]
+set_location_assignment PIN_B14 -to HEX[26]
+set_location_assignment PIN_B15 -to HEX[27]
+set_location_assignment PIN_D2 -to HEX[29]
+set_location_assignment PIN_D3 -to HEX[30]
+set_location_assignment PIN_D5 -to HEX[33]
+set_location_assignment PIN_D6 -to HEX[34]
+set_location_assignment PIN_D7 -to HEX[41]
+set_location_assignment PIN_D8 -to HEX[44]
+set_location_assignment PIN_F2 -to HEX[6]
+set_location_assignment PIN_F3 -to HEX[11]
+set_location_assignment PIN_F4 -to HEX[18]
+set_location_assignment PIN_F5 -to HEX[22]
+set_location_assignment PIN_F7 -to HEX[28]
+set_location_assignment PIN_F8 -to HEX[31]
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
